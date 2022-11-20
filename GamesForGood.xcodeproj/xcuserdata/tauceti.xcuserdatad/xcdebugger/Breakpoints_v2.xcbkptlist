@@ -14,8 +14,8 @@
             filePath = "../Interface/Sources/Interface/Navigation/Coordinators/NavigationCoordinator.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "view(dependencies:navigation:tabbar:modal:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -222,8 +222,8 @@
             filePath = "../Interface/Sources/Interface/Scenes/Learn/LearnViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "fetchTasks()"
             landmarkType = "7">
          </BreakpointContent>

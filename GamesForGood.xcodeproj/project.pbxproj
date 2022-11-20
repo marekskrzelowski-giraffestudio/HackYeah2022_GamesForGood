@@ -12,7 +12,6 @@
 		2625E5AA29290A6700F3CB30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2625E5A929290A6700F3CB30 /* Preview Assets.xcassets */; };
 		2625E5C029290EEE00F3CB30 /* Content in Frameworks */ = {isa = PBXBuildFile; productRef = 2625E5BF29290EEE00F3CB30 /* Content */; };
 		2625E5C429290F7900F3CB30 /* Interface in Frameworks */ = {isa = PBXBuildFile; productRef = 2625E5C329290F7900F3CB30 /* Interface */; };
-		26344ECD29298E60001B6CBC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 26344ECC29298E60001B6CBC /* .gitignore */; };
 		268C2F43292971CB000D868B /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268C2F3F292971CB000D868B /* Rubik-Bold.ttf */; };
 		268C2F44292971CB000D868B /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268C2F40292971CB000D868B /* Rubik-Medium.ttf */; };
 		268C2F45292971CB000D868B /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268C2F41292971CB000D868B /* Rubik-SemiBold.ttf */; };
@@ -30,7 +29,6 @@
 		2625E5B429290B2C00F3CB30 /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Core; path = ../Core; sourceTree = "<group>"; };
 		2625E5B529290B4700F3CB30 /* Interface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Interface; path = ../Interface; sourceTree = "<group>"; };
 		2625E5BB29290DD000F3CB30 /* Content */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Content; path = ../Content; sourceTree = "<group>"; };
-		26344ECC29298E60001B6CBC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		268C2F3D292937F3000D868B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		268C2F3F292971CB000D868B /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		268C2F40292971CB000D868B /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 				268C2F3E292971CB000D868B /* Fonts */,
 				268C2F3D292937F3000D868B /* Info.plist */,
 				2625E5A229290A6600F3CB30 /* GamesForGoodApp.swift */,
-				26344ECC29298E60001B6CBC /* .gitignore */,
 				2625E5A629290A6700F3CB30 /* Assets.xcassets */,
 				2625E5A829290A6700F3CB30 /* Preview Content */,
 			);
@@ -184,7 +181,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2625E5AA29290A6700F3CB30 /* Preview Assets.xcassets in Resources */,
-				26344ECD29298E60001B6CBC /* .gitignore in Resources */,
 				268C2F46292971CB000D868B /* Rubik-Regular.ttf in Resources */,
 				268C2F43292971CB000D868B /* Rubik-Bold.ttf in Resources */,
 				268C2F45292971CB000D868B /* Rubik-SemiBold.ttf in Resources */,
