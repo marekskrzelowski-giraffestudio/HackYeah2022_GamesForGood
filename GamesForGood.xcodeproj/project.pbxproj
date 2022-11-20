@@ -8,17 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		2625E5A329290A6600F3CB30 /* GamesForGoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2625E5A229290A6600F3CB30 /* GamesForGoodApp.swift */; };
-		2625E5A529290A6600F3CB30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2625E5A429290A6600F3CB30 /* ContentView.swift */; };
 		2625E5A729290A6700F3CB30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2625E5A629290A6700F3CB30 /* Assets.xcassets */; };
 		2625E5AA29290A6700F3CB30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2625E5A929290A6700F3CB30 /* Preview Assets.xcassets */; };
+		2625E5C029290EEE00F3CB30 /* Content in Frameworks */ = {isa = PBXBuildFile; productRef = 2625E5BF29290EEE00F3CB30 /* Content */; };
+		2625E5C429290F7900F3CB30 /* Interface in Frameworks */ = {isa = PBXBuildFile; productRef = 2625E5C329290F7900F3CB30 /* Interface */; };
+		26344ECD29298E60001B6CBC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 26344ECC29298E60001B6CBC /* .gitignore */; };
+		268C2F43292971CB000D868B /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268C2F3F292971CB000D868B /* Rubik-Bold.ttf */; };
+		268C2F44292971CB000D868B /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268C2F40292971CB000D868B /* Rubik-Medium.ttf */; };
+		268C2F45292971CB000D868B /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268C2F41292971CB000D868B /* Rubik-SemiBold.ttf */; };
+		268C2F46292971CB000D868B /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268C2F42292971CB000D868B /* Rubik-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2625E59F29290A6600F3CB30 /* GamesForGood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamesForGood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2625E5A229290A6600F3CB30 /* GamesForGoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesForGoodApp.swift; sourceTree = "<group>"; };
-		2625E5A429290A6600F3CB30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2625E5A629290A6700F3CB30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2625E5A929290A6700F3CB30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2625E5B129290AF600F3CB30 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Networking; path = ../Networking; sourceTree = "<group>"; };
+		2625E5B229290B0500F3CB30 /* Persistence */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Persistence; path = ../Persistence; sourceTree = "<group>"; };
+		2625E5B329290B1200F3CB30 /* Validation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Validation; path = ../Validation; sourceTree = "<group>"; };
+		2625E5B429290B2C00F3CB30 /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Core; path = ../Core; sourceTree = "<group>"; };
+		2625E5B529290B4700F3CB30 /* Interface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Interface; path = ../Interface; sourceTree = "<group>"; };
+		2625E5BB29290DD000F3CB30 /* Content */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Content; path = ../Content; sourceTree = "<group>"; };
+		26344ECC29298E60001B6CBC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		268C2F3D292937F3000D868B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		268C2F3F292971CB000D868B /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		268C2F40292971CB000D868B /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		268C2F41292971CB000D868B /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		268C2F42292971CB000D868B /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2625E5C429290F7900F3CB30 /* Interface in Frameworks */,
+				2625E5C029290EEE00F3CB30 /* Content in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +54,10 @@
 		2625E59629290A6600F3CB30 = {
 			isa = PBXGroup;
 			children = (
+				2625E5B029290AF600F3CB30 /* Packages */,
 				2625E5A129290A6600F3CB30 /* GamesForGood */,
 				2625E5A029290A6600F3CB30 /* Products */,
+				2625E5BC29290EE600F3CB30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +72,10 @@
 		2625E5A129290A6600F3CB30 /* GamesForGood */ = {
 			isa = PBXGroup;
 			children = (
+				268C2F3E292971CB000D868B /* Fonts */,
+				268C2F3D292937F3000D868B /* Info.plist */,
 				2625E5A229290A6600F3CB30 /* GamesForGoodApp.swift */,
-				2625E5A429290A6600F3CB30 /* ContentView.swift */,
+				26344ECC29298E60001B6CBC /* .gitignore */,
 				2625E5A629290A6700F3CB30 /* Assets.xcassets */,
 				2625E5A829290A6700F3CB30 /* Preview Content */,
 			);
@@ -65,6 +88,37 @@
 				2625E5A929290A6700F3CB30 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2625E5B029290AF600F3CB30 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				2625E5B129290AF600F3CB30 /* Networking */,
+				2625E5B229290B0500F3CB30 /* Persistence */,
+				2625E5B329290B1200F3CB30 /* Validation */,
+				2625E5B429290B2C00F3CB30 /* Core */,
+				2625E5B529290B4700F3CB30 /* Interface */,
+				2625E5BB29290DD000F3CB30 /* Content */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		2625E5BC29290EE600F3CB30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		268C2F3E292971CB000D868B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				268C2F3F292971CB000D868B /* Rubik-Bold.ttf */,
+				268C2F40292971CB000D868B /* Rubik-Medium.ttf */,
+				268C2F41292971CB000D868B /* Rubik-SemiBold.ttf */,
+				268C2F42292971CB000D868B /* Rubik-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +137,10 @@
 			dependencies = (
 			);
 			name = GamesForGood;
+			packageProductDependencies = (
+				2625E5BF29290EEE00F3CB30 /* Content */,
+				2625E5C329290F7900F3CB30 /* Interface */,
+			);
 			productName = GamesForGood;
 			productReference = 2625E59F29290A6600F3CB30 /* GamesForGood.app */;
 			productType = "com.apple.product-type.application";
@@ -126,7 +184,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2625E5AA29290A6700F3CB30 /* Preview Assets.xcassets in Resources */,
+				26344ECD29298E60001B6CBC /* .gitignore in Resources */,
+				268C2F46292971CB000D868B /* Rubik-Regular.ttf in Resources */,
+				268C2F43292971CB000D868B /* Rubik-Bold.ttf in Resources */,
+				268C2F45292971CB000D868B /* Rubik-SemiBold.ttf in Resources */,
 				2625E5A729290A6700F3CB30 /* Assets.xcassets in Resources */,
+				268C2F44292971CB000D868B /* Rubik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +200,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2625E5A529290A6600F3CB30 /* ContentView.swift in Sources */,
 				2625E5A329290A6600F3CB30 /* GamesForGoodApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +332,7 @@
 				DEVELOPMENT_TEAM = YD9296724U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GamesForGood/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +362,7 @@
 				DEVELOPMENT_TEAM = YD9296724U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GamesForGood/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +403,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2625E5BF29290EEE00F3CB30 /* Content */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Content;
+		};
+		2625E5C329290F7900F3CB30 /* Interface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Interface;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2625E59729290A6600F3CB30 /* Project object */;
 }

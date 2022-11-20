@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import Interface
 
 @main
 struct GamesForGoodApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
