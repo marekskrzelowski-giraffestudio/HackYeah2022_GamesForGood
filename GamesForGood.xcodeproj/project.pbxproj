@@ -29,12 +29,6 @@
 		2625E5A229290A6600F3CB30 /* GamesForGoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesForGoodApp.swift; sourceTree = "<group>"; };
 		2625E5A629290A6700F3CB30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2625E5A929290A6700F3CB30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2625E5B129290AF600F3CB30 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Networking; path = ../Networking; sourceTree = "<group>"; };
-		2625E5B229290B0500F3CB30 /* Persistence */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Persistence; path = ../Persistence; sourceTree = "<group>"; };
-		2625E5B329290B1200F3CB30 /* Validation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Validation; path = ../Validation; sourceTree = "<group>"; };
-		2625E5B429290B2C00F3CB30 /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Core; path = ../Core; sourceTree = "<group>"; };
-		2625E5B529290B4700F3CB30 /* Interface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Interface; path = ../Interface; sourceTree = "<group>"; };
-		2625E5BB29290DD000F3CB30 /* Content */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Content; path = ../Content; sourceTree = "<group>"; };
 		268C2F3D292937F3000D868B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		268C2F3F292971CB000D868B /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		268C2F40292971CB000D868B /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
@@ -96,12 +90,6 @@
 		2625E5B029290AF600F3CB30 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				2625E5B129290AF600F3CB30 /* Networking */,
-				2625E5B229290B0500F3CB30 /* Persistence */,
-				2625E5B329290B1200F3CB30 /* Validation */,
-				2625E5B429290B2C00F3CB30 /* Core */,
-				2625E5B529290B4700F3CB30 /* Interface */,
-				2625E5BB29290DD000F3CB30 /* Content */,
 				260F3B51292A3F6A00F69076 /* Content */,
 				260F3B52292A3F8500F69076 /* Core */,
 				260F3B53292A3F9300F69076 /* Interface */,
