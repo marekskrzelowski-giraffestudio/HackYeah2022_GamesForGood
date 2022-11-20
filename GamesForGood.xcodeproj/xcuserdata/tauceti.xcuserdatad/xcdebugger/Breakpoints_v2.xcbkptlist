@@ -216,96 +216,32 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "85238C12-51C4-44D7-89F4-7C823C49FA2F"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Interface/Sources/Interface/Scenes/Learn/LearnViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "fetchTasks()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "85238C12-51C4-44D7-89F4-7C823C49FA2F - 57c0693283a56e1a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for Interface.LearnViewModel.fetchTasks() async -&gt; ()"
-                  moduleName = "GamesForGood"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tauceti/Developer/ios_gamesforgood/Interface/Sources/Interface/Scenes/Learn/LearnViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "388">
-               </Location>
-               <Location
-                  uuid = "85238C12-51C4-44D7-89F4-7C823C49FA2F - d24e2c10a847d51b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for Interface.LearnViewModel.fetchTasks() async -&gt; ()"
-                  moduleName = "GamesForGood"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tauceti/Developer/ios_gamesforgood/Interface/Sources/Interface/Scenes/Learn/LearnViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "392">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9DAA0ACA-6C77-41ED-943B-E7C9F754073A"
-            shouldBeEnabled = "Yes"
+            uuid = "A357E916-DA6A-4C02-AFB9-FF08649F482A"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Interface/Sources/Interface/Scenes/Learn/LearnViewModel.swift"
+            filePath = "../Core/Sources/Core/Services/MissionsService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "fetchMissions()"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fetchMissions(type:parent:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "9DAA0ACA-6C77-41ED-943B-E7C9F754073A - 51fdc44baf39e116"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for Interface.LearnViewModel.fetchMissions() async -&gt; ()"
-                  moduleName = "GamesForGood"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tauceti/Developer/ios_gamesforgood/Interface/Sources/Interface/Scenes/Learn/LearnViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "388">
-               </Location>
-               <Location
-                  uuid = "9DAA0ACA-6C77-41ED-943B-E7C9F754073A - ec7298d6a7d44f17"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for Interface.LearnViewModel.fetchMissions() async -&gt; ()"
-                  moduleName = "GamesForGood"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tauceti/Developer/ios_gamesforgood/Interface/Sources/Interface/Scenes/Learn/LearnViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "392">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
