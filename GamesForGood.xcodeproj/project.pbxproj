@@ -19,6 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		260F3B51292A3F6A00F69076 /* Content */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Content; sourceTree = "<group>"; };
+		260F3B52292A3F8500F69076 /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Core; sourceTree = "<group>"; };
+		260F3B53292A3F9300F69076 /* Interface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Interface; sourceTree = "<group>"; };
+		260F3B54292A3FA700F69076 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
+		260F3B55292A3FAE00F69076 /* Persistence */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Persistence; sourceTree = "<group>"; };
+		260F3B56292A3FB700F69076 /* Validation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Validation; sourceTree = "<group>"; };
 		2625E59F29290A6600F3CB30 /* GamesForGood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamesForGood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2625E5A229290A6600F3CB30 /* GamesForGoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesForGoodApp.swift; sourceTree = "<group>"; };
 		2625E5A629290A6700F3CB30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,6 +102,12 @@
 				2625E5B429290B2C00F3CB30 /* Core */,
 				2625E5B529290B4700F3CB30 /* Interface */,
 				2625E5BB29290DD000F3CB30 /* Content */,
+				260F3B51292A3F6A00F69076 /* Content */,
+				260F3B52292A3F8500F69076 /* Core */,
+				260F3B53292A3F9300F69076 /* Interface */,
+				260F3B54292A3FA700F69076 /* Networking */,
+				260F3B55292A3FAE00F69076 /* Persistence */,
+				260F3B56292A3FB700F69076 /* Validation */,
 			);
 			name = Packages;
 			sourceTree = "<group>";

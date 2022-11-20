@@ -1,0 +1,99 @@
+%PDF-1.7
+
+1 0 obj
+  << /Length 2 0 R
+     /Range [ 0.000000 1.000000 0.000000 1.000000 0.000000 1.000000 ]
+     /Domain [ 0.000000 1.000000 ]
+     /FunctionType 4
+  >>
+stream
+{  0.843474 exch 0.991667 exch 0.338819 exch dup 0.000000 gt { exch pop exch pop exch pop dup 0.000000 sub -0.237199 mul 0.843474 add exch dup 0.000000 sub -0.250000 mul 0.991667 add exch dup 0.000000 sub -0.190486 mul 0.338819 add exch } if dup 1.000000 gt { exch pop exch pop exch pop 0.606275 exch 0.741667 exch 0.148333 exch } if pop }
+endstream
+endobj
+
+2 0 obj
+  339
+endobj
+
+3 0 obj
+  << /Pattern << /P1 << /Matrix [ 0.000000 -49.000004 49.000004 0.000000 -49.000004 49.000000 ]
+                        /Shading << /Coords [ 0.000000 0.000000 1.000000 0.000000 ]
+                                    /ColorSpace /DeviceRGB
+                                    /Function 1 0 R
+                                    /Domain [ 0.000000 1.000000 ]
+                                    /ShadingType 2
+                                    /Extend [ true true ]
+                                 >>
+                        /PatternType 2
+                        /Type /Pattern
+                     >> >> >>
+endobj
+
+4 0 obj
+  << /Length 5 0 R >>
+stream
+/DeviceRGB CS
+/DeviceRGB cs
+q
+1.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 cm
+/Pattern cs
+/P1 scn
+49.000000 24.500000 m
+49.000000 10.969025 38.030975 0.000000 24.500000 0.000000 c
+10.969024 0.000000 0.000000 10.969025 0.000000 24.500000 c
+0.000000 38.030975 10.969024 49.000000 24.500000 49.000000 c
+38.030975 49.000000 49.000000 38.030975 49.000000 24.500000 c
+h
+f
+n
+Q
+
+endstream
+endobj
+
+5 0 obj
+  380
+endobj
+
+6 0 obj
+  << /Annots []
+     /Type /Page
+     /MediaBox [ 0.000000 0.000000 49.000000 49.000000 ]
+     /Resources 3 0 R
+     /Contents 4 0 R
+     /Parent 7 0 R
+  >>
+endobj
+
+7 0 obj
+  << /Kids [ 6 0 R ]
+     /Count 1
+     /Type /Pages
+  >>
+endobj
+
+8 0 obj
+  << /Pages 7 0 R
+     /Type /Catalog
+  >>
+endobj
+
+xref
+0 9
+0000000000 65535 f
+0000000010 00000 n
+0000000533 00000 n
+0000000555 00000 n
+0000001181 00000 n
+0000001617 00000 n
+0000001639 00000 n
+0000001812 00000 n
+0000001886 00000 n
+trailer
+<< /ID [ (some) (id) ]
+   /Root 8 0 R
+   /Size 9
+>>
+startxref
+1945
+%%EOF
