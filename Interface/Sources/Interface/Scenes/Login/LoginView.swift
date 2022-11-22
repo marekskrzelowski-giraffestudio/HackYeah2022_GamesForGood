@@ -47,6 +47,7 @@ struct LoginView: View {
                         placeholder: "Enter email",
                         error: viewModel.emailError
                     )
+                    .offset(y: 5)
                     .overlay(
                         RoundedRectangle(cornerRadius: 10)
                             .stroke(Content.color(.blackBlack), lineWidth: 1)
@@ -75,6 +76,7 @@ struct LoginView: View {
                         placeholder: "Enter password",
                         error: viewModel.passwordError
                     )
+                    .offset(y: 5)
                     .overlay(
                         RoundedRectangle(cornerRadius: 10)
                             .stroke(Content.color(.blackBlack), lineWidth: 1)

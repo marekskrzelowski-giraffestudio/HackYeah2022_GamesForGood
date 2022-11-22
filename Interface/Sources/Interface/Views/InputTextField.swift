@@ -15,7 +15,7 @@ struct InputTextField: View {
     var body: some View {
         VStack(alignment: .center, spacing: 0) {
             ZStack(alignment: .leading) {
-                Text(displayError ? error ?? "" : placeholder)
+                Text(displayError ? error ?? "" : "")
                     .lineLimit(1)
                     .minimumScaleFactor(0.5)
                     .font(.system(size: textTransition ? 14 : 16, weight: .regular))
@@ -26,7 +26,7 @@ struct InputTextField: View {
                                 placeholderTransition ? .blackBlack : .blackWhite
                         )
                     )
-                    .offset(x: 0, y: textTransition ? 38 : 0)
+                    .offset(x: 0, y: textTransition ? 33 : 0)
                 if secure {
                     SecureField("", text: text)
                         .keyboardType(type)
